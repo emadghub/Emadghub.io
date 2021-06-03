@@ -1,0 +1,36 @@
+body{
+    background-color: yellow;
+}
+
+.emadheading{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+}
+
+.division{
+    border : 2px solid red;
+    line-height: 25px;
+    font-size:x-large;
+    font-weight: 500;
+}
+
+.buttons{
+    display:flex;
+    height: 80%;
+    width:fit-content;
+    border: 1px solid;
+    flex-direction:row;
+}
+
+#button1{
+    flex: 3,0,0;
+}
+
+#button2{
+    flex: 2,0,0;
+}
+
+#button3{
+    flex: 2,0,0;
+}
